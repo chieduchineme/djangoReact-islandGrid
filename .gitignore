@@ -1,0 +1,68 @@
+# Ignore sensitive credentials
+djangoBackend/islandGrid/demo/dataProcessing/credentials.json
+djangoBackend/islandGrid/demo/dataProcessing/token.json
+
+# Ignore environment variables file
+.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directory
+venv/
+djangoBackend/virt
+env/
+# Or if you're using Poetry:
+.poetry/
+
+# Ignore Django database and migration files (if SQLite)
+*.sqlite3
+db.sqlite3
+
+# Ignore local static files
+/static/
+/media/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore IDE and editor-specific files
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter in the project)
+.ipynb_checkpoints/
+
+# Ignore bytecode or bytecode output from virtual environments
+*.egg-info/
+*.eggs/
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+.cache
+djangoBackend/islandGrid/demo/__pycache__
+
+
+# Ignore Node.js dependencies (if any)
+reactFrontend/node_modules
+reactFrontend/package-lock.json
+
+# Ignore build files
+/build/
+/dist/
+*.egg
+*.tar
+*.zip
+
+# Ignore system files (Mac/Windows/Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temporary local files
+*.local

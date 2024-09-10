@@ -1,0 +1,42 @@
+.container {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .header {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subheader {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+  }
+  
+  .list {
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      font-size: 1.5rem;
+    }
+  
+    .subheader {
+      font-size: 1.2rem;
+    }
+  
+    .list {
+      font-size: 1rem;
+    }
+  }
+  
